@@ -19,3 +19,19 @@ from getpass import getpass
 
 usertoken = getpass()
 os.environ["GITHUB_TOKEN"] = usertoken
+
+!git clone https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/petwillian/projeto-ebac.git
+
+%cd /content/projeto-ebac/
+
+!touch projeto-git.py
+!git status
+
+!git add projeto-git.py
+!git status
+
+!git commit -m "arquivo projeto-git.py criado"
+!git status
+
+!git push origin main
+!git status
