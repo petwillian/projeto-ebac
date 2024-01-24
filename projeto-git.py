@@ -1,3 +1,7 @@
+Criar uma conta no GitHub.
+Criar um personal access token.
+Configurar a conexão entre o git local com o git remoto (GitHub):
+
 import os
 
 username = "<seu-usuario-git>" # insira o seu nome de usuário do git
