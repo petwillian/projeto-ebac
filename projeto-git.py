@@ -24,9 +24,16 @@ from getpass import getpass
 usertoken = getpass()
 os.environ["GITHUB_TOKEN"] = usertoken
 
+#Projeto
+
+#Criar o projeto remoto.
+#Fazer o download do projeto remoto na máquina local
+
 !git clone https://${GITHUB_USER}:${GITHUB_TOKEN}@github.com/petwillian/projeto-ebac.git
 
 %cd /content/projeto-ebac/
+
+#Criar um arquivo e salvar as aterações no repositório local.
 
 !touch projeto-git.py
 !git status
@@ -36,6 +43,8 @@ os.environ["GITHUB_TOKEN"] = usertoken
 
 !git commit -m "arquivo projeto-git.py criado"
 !git status
+
+#Enviar as alterações para o repositório remoto
 
 !git push origin main
 !git status
