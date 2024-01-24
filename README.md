@@ -2,3 +2,4 @@
 EBAC Projeto Git
 O git é um software de controle de versão distribuído de arquivos. Voce pode utiliza-lo tanto na máquina virtual do Google Colab quanto na sua máquina local.
 O GitHub é uma ferramenta online de controle de versão distribuído de arquivos.
+Nesta etapa vamos configurar o git na máquina virtual do Google Colab ou na sua máquina local
